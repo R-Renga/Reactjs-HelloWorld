@@ -102,3 +102,26 @@ CROSS ORIGIN IN SCRIPT TAG - provide support for CORS
 
 //ASYNC AND DEFER
 
+
+//GIT PUSH STEPS//
+
+new respository
+
+git init
+
+git add .
+
+git status
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/R-Renga/Reactjs-HelloWorld.git
+
+git push -u origin master
+
+credentials
+
+Done
+
+
+
