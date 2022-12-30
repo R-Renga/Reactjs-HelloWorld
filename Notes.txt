@@ -102,6 +102,22 @@ CROSS ORIGIN IN SCRIPT TAG - provide support for CORS
 
 //ASYNC AND DEFER
 
+when you load the webpage two things will happen in browser
+1.html parsing
+2.script loading
+  1)fetching the script from network
+  2)executing script line by line.
+
+script async
+when the html parsing happen ,parallely fetching the script from network will work,
+then parsing stop at one time executing script line by line process will happen,finally html
+parsing will continous.
+
+differ
+when the html parsing happen ,parallely fetching the script from network will work,after 
+both process complete fully script exeution process will happen and complete the whole process.
+
+
 
 //GIT PUSH STEPS//
 
